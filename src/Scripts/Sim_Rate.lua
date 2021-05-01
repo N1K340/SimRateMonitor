@@ -9,7 +9,7 @@ if not SUPPORTS_FLOATING_WINDOWS then
   logMsg("imgui not supported, please update to latest version of FlyWithLUA")
   return
   else
-  print("Sim Rate Buddy Loaded")
+  print("Sim Rate Monitor Loaded")
 end
 
 -- Modules
