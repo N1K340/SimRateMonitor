@@ -2,7 +2,6 @@
 Sim Rate Monitor
 Objective:
     - Adjust sim rate by selection instead of toggle
-    - Automatic mode to increase and decreas sim rate approaching waypoints.
     ]]
 
 if not SUPPORTS_FLOATING_WINDOWS then
@@ -17,7 +16,7 @@ end
 require "graphics"
 
 -- Variables
-local actSimRate = 1
+-- local actSimRate = 1
 
 -- Datarefs
 dataref("SIM_RATE", "sim/time/ground_speed_flt")
@@ -38,9 +37,9 @@ function SRB_Set4Speed ()
 	print("Setting Sim Rate to 4x")
 end
 
-add_macro("Sim Rate Buddy 1x", "SRB_Set1Speed()")
-add_macro("Sim Rate Buddy 2x", "SRB_Set1Speed()")
-add_macro("Sim Rate Buddy 4x", "SRB_Set4Speed()")
+add_macro("Sim Rate Monitor 1x", "SRB_Set1Speed()")
+add_macro("Sim Rate Monitor 2x", "SRB_Set1Speed()")
+add_macro("Sim Rate Monitor 4x", "SRB_Set4Speed()")
 
 
 create_command(
