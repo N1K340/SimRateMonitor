@@ -53,7 +53,7 @@ create_command(
 	create_command(
 	"FlyWithLUA/SimRateBuddy/GS2x",
 	"Set Ground Speed to 2x",
-	"SRB_Set1Speed()",
+	"SRB_Set2Speed()",
 	"",
 	""
 	)
