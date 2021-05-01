@@ -28,8 +28,8 @@ function SRB_Set1Speed ()
 end
 
 function SRB_Set2Speed ()
-	set("sim/time/ground_speed_flt", 1)
-	print("Setting Sim Rate to 1x")
+	set("sim/time/ground_speed_flt", 2)
+	print("Setting Sim Rate to 2x")
 end
 
 function SRB_Set4Speed ()
@@ -38,7 +38,7 @@ function SRB_Set4Speed ()
 end
 
 add_macro("Sim Rate Monitor 1x", "SRB_Set1Speed()")
-add_macro("Sim Rate Monitor 2x", "SRB_Set1Speed()")
+add_macro("Sim Rate Monitor 2x", "SRB_Set2Speed()")
 add_macro("Sim Rate Monitor 4x", "SRB_Set4Speed()")
 
 
