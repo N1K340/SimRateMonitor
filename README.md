@@ -31,4 +31,5 @@ Installation and use of this package is at your own risk.
 
 Change Log
 ==========
-* V1.0 - Initial Release.
+* v1.0 - Initial Release.
+* v1.1 - Correct code for 2x sim rate macro.
